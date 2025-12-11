@@ -13,8 +13,7 @@ Dataset: APTOS 2019 Blindness Kaggle Competition
 
 1. ```Upload DemoCode.ipynb```.
 2. Run every cell. 
-Google Colab has all of the necessary libraries pre-installed. This repository will be cloned inside Google Colab and the necessary datasets will be installed.
-
+Google Colab has all of the necessary libraries pre-installed. This repository will be cloned inside Google Colab and the necessary datasets will be installed. The code also is configured to used GPUs, if available.
 
 ## Instructions to run demo locally 
 1. Clone this repository! Run ```git clone https://github.com/andrewjc03/cs284a-project.git``` then ```cd cs284a-project```
