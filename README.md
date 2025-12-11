@@ -11,7 +11,9 @@ Dataset: APTOS 2019 Blindness Kaggle Competition
 
 ## Instructions to run demo on Google Colab
 
-```DemoCode.ipynb``` can be uploaded to Google Drive and run in Google Colab. Google Colab has all of the necessary libraries pre-installed. This repository will be cloned inside Google Colab and the necessary datasets will be installed.
+1. ```Upload DemoCode.ipynb```.
+2. Run every cell. 
+Google Colab has all of the necessary libraries pre-installed. This repository will be cloned inside Google Colab and the necessary datasets will be installed.
 
 
 ## Instructions to run demo locally 
