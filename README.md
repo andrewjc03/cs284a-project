@@ -23,6 +23,12 @@ Google Colab has all of the necessary libraries pre-installed. This repository w
 3. Execute all cells in DemoCode.ipynb (VS Code or Jupyter Notebook).
 ```requirements.txt``` was generated using the command ```!pip freeze > requirements.txt``` in Google Colab. Extraneous libraries were removed.
 
+### Troubleshooting Local Run
+
+If ```PyTorch>=2.9.0``` cannot be installed, try an older version of ```PyTorch```. In this case, change the import statement ```from torch.amp import autocast, GradScaler``` to ```from torch.cuda.amp import autocast, GradScaler``` if it raises an issue, and change ```scaler = GradScaler(device="cuda")```` to ```scaler = GradScaler()```. 
+
+
+
 ---
 In our demo, we use a smaller subset of the original data, which we got from the training dataset of [this Kaggle competition](https://www.kaggle.com/competitions/aptos2019-blindness-detection/data). Our demo uses 696 images for training and 184 images for testing.
 
