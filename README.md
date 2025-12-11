@@ -13,15 +13,14 @@ Dataset: APTOS 2019 Blindness Kaggle Competition
 
 1. Upload ```DemoCode.ipynb``` to Google Drive.
 2. Open ```DemoCode.ipynb``` in Google Colab.
-3. Run every cell. 
+3.Execute all cells in ```DemoCode.ipynb```
 Google Colab has all of the necessary libraries pre-installed. This repository will be cloned inside Google Colab and the necessary datasets will be installed. The code also is configured to used GPUs, if available.
 
 ## Instructions to run demo locally 
 1. Clone this repository! Run ```git clone https://github.com/andrewjc03/cs284a-project.git``` then ```cd cs284a-project```
 2. Install the necessary libraries (in a virtual environment if you wish) with the following command: ```pip install -r requirements.txt``` (there is a cell in ```DemoCode.ipynb``` to do this for you).
 ** Note the version of PyTorch that is installed. Google Colab uses 2.9.0 but for older versions of PyTorch, the ```GradScaler``` may cause issues.
-3. Run all of the cells in ```DemoCode.ipynb``
-
+3. Execute all cells in DemoCode.ipynb (VS Code or Jupyter Notebook).
 ```requirements.txt``` was generated using the command ```!pip freeze > requirements.txt``` in Google Colab. Extraneous libraries were removed.
 
 ---
