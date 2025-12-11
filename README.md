@@ -9,7 +9,7 @@ Dataset: APTOS 2019 Blindness Kaggle Competition
 #### Authors: Andrew Collins, Kevin Fang, and Zachary Katz
 ---
 
-## Instructions to run demo on Google Colab
+## Instructions to run demo on Google Colab (recommended)
 
 1. Upload ```DemoCode.ipynb``` to Google Drive.
 2. Open ```DemoCode.ipynb``` in Google Colab.
