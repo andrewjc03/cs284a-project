@@ -25,7 +25,7 @@ Google Colab has all of the necessary libraries pre-installed. This repository w
 
 ### Troubleshooting Local Run
 
-If ```PyTorch>=2.9.0``` cannot be installed, try an older version of ```PyTorch```. In this case, change the import statement ```from torch.amp import autocast, GradScaler``` to ```from torch.cuda.amp import autocast, GradScaler``` if it raises an issue, and change ```scaler = GradScaler(device="cuda")```` to ```scaler = GradScaler()```. 
+If ```PyTorch>=2.9.0``` cannot be installed, try an older version of ```PyTorch```. In this case, change the import statement ```from torch.amp import autocast, GradScaler``` to ```from torch.cuda.amp import autocast, GradScaler``` if it raises an issue, and change ```scaler = GradScaler(device="cuda")``` to ```scaler = GradScaler()```. 
 
 
 
