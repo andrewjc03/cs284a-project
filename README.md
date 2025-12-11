@@ -1,8 +1,9 @@
 # cs284a-project
 
 Final project for CS 284A @ UCI
+
 Dataset: APTOS 2019 Blindness Kaggle Competition
-***
+
 
 ## Deep Learning for Diabetic Retinopathy Severity Classification Using Retinal Fundus Images 
 #### Authors: Andrew Collins, Kevin Fang, and Zachary Katz
