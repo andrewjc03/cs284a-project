@@ -11,7 +11,7 @@ Final project for CS 284A @ UCI
 
 1. Upload ```DemoCode.ipynb``` to Google Drive.
 2. Open ```DemoCode.ipynb``` in Google Colab.
-3.Execute all cells in ```DemoCode.ipynb```
+3. Execute all cells in ```DemoCode.ipynb```
 Google Colab has all of the necessary libraries pre-installed. This repository will be cloned inside Google Colab and the necessary datasets will be installed. The code also is configured to used GPUs, if available.
 
 ## Instructions to run demo locally 
