@@ -16,7 +16,7 @@ Google Colab has all of the necessary libraries pre-installed. This repository w
 
 ## Instructions to run demo locally 
 1. Clone this repository! Run ```git clone https://github.com/andrewjc03/cs284a-project.git``` then ```cd cs284a-project```
-2. Install the necessary libraries (in a virtual environment if you wish) with the following command: ```pip install -r requirements.txt``` (you can add this in a cell in ```DemoCode.ipynb``` to do this).
+2. Install the necessary libraries (in a virtual environment if you wish) with the following command: ```pip install -r requirements.txt``` (there is a cell in ```DemoCode.ipynb``` to do this for you).
 ** Note the version of PyTorch that is installed. Google Colab uses 2.9.0 but for older versions of PyTorch, the ```GradScaler``` may cause issues.
 3. Execute all cells in DemoCode.ipynb (VS Code or Jupyter Notebook).
 ```requirements.txt``` was generated using the command ```!pip freeze > requirements.txt``` in Google Colab. Extraneous libraries were removed.
